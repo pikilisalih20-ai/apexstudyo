@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>APEX Studio - Mobil</title>
   <link rel="stylesheet" href="css/styles.css" />
-</head> <link rel="stylesheet" href="css/styles.css" />
+</head>
 <body>
   <!-- Giriş Animasyonu -->
   <section id="intro" class="intro">
@@ -17,5 +17,45 @@
     <div class="brand">APEX Studio</div>
   </header>
 
-  <main
+  <main class="container">
+    <section class="hero" id="ana">
+      <h1>Giriş Yap, Hemen Satışa Başla</h1>
+      <p>Mobilde hızlı alışveriş deneyimi</p>
+      <a href="#urunler" class="cta">Hemen Keşfet</a>
+    </section>
+
+    <section id="urunler" class="section">
+      <h2>Öne Çıkan Ürünler</h2>
+      <div class="products">
+        <div class="card">
+          <img src="https://dummyimage.com/600x400/111/fff" alt="Ürün 1"/>
+          <div class="name">Ürün Adı 1</div>
+          <div class="price">₺199.00</div>
+          <button>Sepete Ekle</button>
+        </div>
+        <div class="card">
+          <img src="https://dummyimage.com/600x400/222/fff" alt="Ürün 2"/>
+          <div class="name">Ürün Adı 2</div>
+          <div class="price">₺299.00</div>
+          <button>Sepete Ekle</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section">
+      <h2>İletişim</h2>
+      <form onsubmit="return false;">
+        <input placeholder="İsim" />
+        <input placeholder="Email" type="email" />
+        <textarea placeholder="Mesaj" rows="3"></textarea>
+        <button type="submit" class="cta">Gönder</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 APEX Studio</footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
 
